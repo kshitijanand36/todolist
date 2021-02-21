@@ -117,7 +117,7 @@ app.post("/delete", function(req, res) {
 
   var curr_id = req.body.checkbox;
 
-  if(curr_title == "today"){
+  if(curr_title == "Today"){
 
     Item.deleteOne({
       _id: req.body.checkbox
